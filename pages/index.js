@@ -14,15 +14,18 @@ export default function Home() {
           neuroscience to business, healthcare, and education.
         </p>
         <div className="mt-6">
-          <Link href="/speaking-training">
-            <a className="px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700">
-              Explore Training & Speaking
-            </a>
+          <Link
+            href="/speaking-training"
+            className="px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700"
+          >
+            Explore Training & Speaking
           </Link>
-          <Link href="/about">
-            <a className="ml-4 px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-100">
-              Learn More About Ben
-            </a>
+
+          <Link
+            href="/about"
+            className="ml-4 px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-100"
+          >
+            Learn More About Ben
           </Link>
         </div>
       </header>
@@ -37,10 +40,11 @@ export default function Home() {
             Neuroscientist, Speaker, and Consultant with 20+ years of experience
             in cognitive resilience, leadership, and brain health.
           </p>
-          <Link href="/about">
-            <a className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-              Learn More
-            </a>
+          <Link
+            href="/about"
+            className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          >
+            Learn More
           </Link>
         </div>
       </section>
@@ -58,10 +62,11 @@ export default function Home() {
                 Neuroscience-driven training for workplace performance and
                 leadership.
               </p>
-              <Link href="/corporate">
-                <a className="mt-4 inline-block text-blue-600 hover:underline">
-                  Learn More
-                </a>
+              <Link
+                href="/corporate"
+                className="mt-4 inline-block text-blue-600 hover:underline"
+              >
+                Learn More
               </Link>
             </div>
             <div className="p-6 border rounded-md shadow-md text-center">
@@ -70,10 +75,11 @@ export default function Home() {
                 Bespoke neuroscience-backed solutions for organizations and
                 leaders.
               </p>
-              <Link href="/consulting">
-                <a className="mt-4 inline-block text-blue-600 hover:underline">
-                  Learn More
-                </a>
+              <Link
+                href="/consulting"
+                className="mt-4 inline-block text-blue-600 hover:underline"
+              >
+                Learn More
               </Link>
             </div>
             <div className="p-6 border rounded-md shadow-md text-center">
@@ -81,10 +87,11 @@ export default function Home() {
               <p className="mt-2 text-gray-600">
                 Explore my YouTube, blog, and online courses on brain health.
               </p>
-              <Link href="/resources">
-                <a className="mt-4 inline-block text-blue-600 hover:underline">
-                  Learn More
-                </a>
+              <Link
+                href="/resources"
+                className="mt-4 inline-block text-blue-600 hover:underline"
+              >
+                Learn More
               </Link>
             </div>
           </div>
@@ -97,11 +104,17 @@ export default function Home() {
           &copy; {new Date().getFullYear()} Dr. Ben Webb. All rights reserved.
         </p>
         <div className="mt-4 flex justify-center gap-6">
-          <Link href="https://www.linkedin.com/in/dr-ben-webb-65856443/">
-            <a className="hover:text-blue-400">LinkedIn</a>
+          <Link
+            href="https://www.linkedin.com/in/dr-ben-webb-65856443/"
+            className="hover:text-blue-400"
+          >
+            LinkedIn
           </Link>
-          <Link href="https://www.youtube.com/@drbenwebb">
-            <a className="hover:text-red-400">YouTube</a>
+          <Link
+            href="https://www.youtube.com/@drbenwebb"
+            className="hover:text-red-400"
+          >
+            YouTube
           </Link>
         </div>
       </footer>

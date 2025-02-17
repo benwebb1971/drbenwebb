@@ -6,19 +6,19 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <Link href="/">
-          <span className="text-2xl font-bold cursor-pointer">Dr Ben Webb</span>
+          <a className="text-2xl font-bold cursor-pointer">Dr Ben Webb</a>
         </Link>
 
         {/* Menu Items */}
         <div className="space-x-6">
-          <Link href="/about" className="hover:text-gray-300">
-            About
+          <Link href="/about">
+            <a className="hover:text-gray-300">About</a>
           </Link>
-          <Link href="/services" className="hover:text-gray-300">
-            Services
+          <Link href="/services">
+            <a className="hover:text-gray-300">Services</a>
           </Link>
-          <Link href="/contact" className="hover:text-gray-300">
-            Contact
+          <Link href="/contact">
+            <a className="hover:text-gray-300">Contact</a>
           </Link>
         </div>
       </div>
