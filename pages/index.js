@@ -15,10 +15,10 @@ export default function Home() {
         </p>
         <div className="mt-6">
           <Link
-            href="/speaking-training"
+            href="/training"
             className="px-6 py-3 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700"
           >
-            Explore Training & Speaking
+            Explore Training
           </Link>
 
           <Link
