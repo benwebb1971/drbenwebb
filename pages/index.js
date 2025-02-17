@@ -87,11 +87,9 @@ export default function Home() {
               <p className="mt-2 text-gray-600">
                 Explore my YouTube, blog, and online courses on brain health.
               </p>
-              <Link
-                href="/resources"
-                className="mt-4 inline-block text-blue-600 hover:underline"
-              >
-                Learn More
+
+              <Link href="/resources" className="text-blue-600 hover:underline">
+                Resources
               </Link>
             </div>
           </div>
