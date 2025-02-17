@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Navbar /> {/* ✅ Navigation bar will be visible on all pages */}
+      <Navbar /> {/* ✅ Navbar should now be visible */}
       <Component {...pageProps} />
     </div>
   )
