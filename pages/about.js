@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import profilePic from '../public/ben-profile.jpg'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -18,7 +18,7 @@ export default function About() {
       <section className="py-16 px-6 md:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <Image
-            src={profilePic}
+            src="/ben-profile.jpg" //
             alt="Dr. Ben Webb"
             width={200}
             height={200}
